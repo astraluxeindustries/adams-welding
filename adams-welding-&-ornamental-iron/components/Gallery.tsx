@@ -4,14 +4,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 const categories = ['All', 'Gates', 'Railings', 'Spiral Stairs', 'Doors'];
 
 const galleryItems = [
-  { id: 1, category: 'Gates', src: '/images/privacy-driveway-gates.jpg', title: 'Ornamental Driveway Gate' },
-  { id: 2, category: 'Railings', src: '/images/southwest-driveway-gates.jpg', title: 'Interior Balcony Railing' },
-  { id: 3, category: 'Spiral Stairs', src: '/images/contemporary-matching-gates.jpg', title: 'Custom Spiral Staircase' },
-  { id: 4, category: 'Doors', src: '/images/driveway-gates.jpg', title: 'Iron Entry Door' },
-  { id: 5, category: 'Gates', src: '/images/privacy-arch-matching-gates.jpg', title: 'Garden Entry Gate' },
-  { id: 6, category: 'Railings', src: '/images/privacy-matching.jpg', title: 'Modern Deck Railing' },
-  { id: 7, category: 'Spiral Stairs', src: '/images/scroll-driveway-gates', title: 'Exterior Spiral Staircase' },
-  { id: 8, category: 'Railings', src: '/images/walk-gates.jpg', title: 'Commercial Guard Rail' },
+  { id: 1, category: 'Gates', src: '/images/Privacy%20Driveway%20Gates.jpg', title: 'Ornamental Driveway Gate' },
+  { id: 2, category: 'Railings', src: '/images/SOUTHWEST%20DRIVEWAY%20GATES.jpg', title: 'Interior Balcony Railing' },
+  { id: 3, category: 'Spiral Stairs', src: '/images/contemporary%20matching%20gates.jpg', title: 'Custom Spiral Staircase' },
+  { id: 4, category: 'Doors', src: '/images/driveway%20gates.jpg', title: 'Iron Entry Door' },
+  { id: 5, category: 'Gates', src: '/images/privacy%20arch%20matching%20gates.jpg', title: 'Garden Entry Gate' },
+  { id: 6, category: 'Railings', src: '/images/privacy%20matching.jpg', title: 'Modern Deck Railing' },
+  { id: 7, category: 'Spiral Stairs', src: '/images/scroll%20driveway%20gates.jpg', title: 'Exterior Spiral Staircase' },
+  { id: 8, category: 'Railings', src: '/images/walk%20gates.jpg', title: 'Commercial Guard Rail' },
 ];
 
 const Gallery: React.FC = () => {

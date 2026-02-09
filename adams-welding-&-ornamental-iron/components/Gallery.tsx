@@ -4,14 +4,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 const categories = ['All', 'Gates', 'Railings', 'Spiral Stairs', 'Doors'];
 
 const galleryItems = [
-  { id: 1, category: 'Gates', src: 'https://images.unsplash.com/photo-1598528827988-2964349d6902?auto=format&fit=crop&q=80&w=800', title: 'Ornamental Driveway Gate' },
-  { id: 2, category: 'Railings', src: 'https://images.unsplash.com/photo-1516156008625-3a9d60da923c?auto=format&fit=crop&q=80&w=800', title: 'Interior Balcony Railing' },
-  { id: 3, category: 'Spiral Stairs', src: 'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&q=80&w=800', title: 'Custom Spiral Staircase' },
-  { id: 4, category: 'Doors', src: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=800', title: 'Iron Entry Door' },
-  { id: 5, category: 'Gates', src: 'https://picsum.photos/600/800', title: 'Garden Entry Gate' },
-  { id: 6, category: 'Railings', src: 'https://picsum.photos/600/600', title: 'Modern Deck Railing' },
-  { id: 7, category: 'Spiral Stairs', src: 'https://picsum.photos/600/900', title: 'Exterior Spiral Staircase' },
-  { id: 8, category: 'Railings', src: 'https://picsum.photos/800/600', title: 'Commercial Guard Rail' },
+  { id: 1, category: 'Gates', src: '/images/privacy-driveway-gates.jpg', title: 'Ornamental Driveway Gate' },
+  { id: 2, category: 'Railings', src: '/images/southwest-driveway-gates.jpg', title: 'Interior Balcony Railing' },
+  { id: 3, category: 'Spiral Stairs', src: '/images/contemporary-matching-gates.jpg', title: 'Custom Spiral Staircase' },
+  { id: 4, category: 'Doors', src: '/images/driveway-gates.jpg', title: 'Iron Entry Door' },
+  { id: 5, category: 'Gates', src: '/images/privacy-arch-matching-gates.jpg', title: 'Garden Entry Gate' },
+  { id: 6, category: 'Railings', src: '/images/privacy-matching.jpg', title: 'Modern Deck Railing' },
+  { id: 7, category: 'Spiral Stairs', src: '/images/scroll-driveway-gates', title: 'Exterior Spiral Staircase' },
+  { id: 8, category: 'Railings', src: '/images/walk-gates.jpg', title: 'Commercial Guard Rail' },
 ];
 
 const Gallery: React.FC = () => {
